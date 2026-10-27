@@ -89,6 +89,15 @@ Assets/
 
 El archivo `Assets/SpineVoxels/SPEC.md` documenta el pipeline de voxelización.
 
+## Herramienta de calibración
+
+Las curvas de fuerza por tejido que utiliza el simulador se calibran con una
+aplicación de escritorio desarrollada en Python (PySide6) como parte del mismo
+proyecto. Esa aplicación permite ajustar de forma interactiva la respuesta mecánica de
+cada capa, exporta los perfiles en formato JSON y puede transmitir la configuración al
+simulador en tiempo real por WebSocket. Se encuentra en el repositorio
+<https://github.com/Luciosv/calibracion-puncion-lumbar>.
+
 ## Cómo citar
 
 > Schneider, F. N. y Sepúlveda Villabona, L. J. (2026). *Diseño, Implementación y
