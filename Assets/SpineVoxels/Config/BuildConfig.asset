@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16fc6088aaa32454e8b2a98f4f6ec490, type: 3}
+  m_Name: BuildConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SpineVoxels.Config.BuildConfig
+  nrrdPath: D:\Unity Projects\FacuFiles\Voxels\Assets\URS04 segmentation-label.nrrd
+  voxelSizeMm: 1.5
+  unityUnitsPerMm: 1
+  centerModel: 1
+  resampleRule: 0
+  palette: {fileID: 11400000, guid: 2094432382ce7ba4c8a96327c41915f7, type: 2}

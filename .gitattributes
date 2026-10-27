@@ -1,0 +1,72 @@
+# Normalize text files and keep cross-platform consistency
+* text=auto
+
+# Unity text-serialized assets
+*.cs      text eol=lf
+*.meta    text eol=lf
+*.unity   text eol=lf
+*.prefab  text eol=lf
+*.asset   text eol=lf
+*.mat     text eol=lf
+*.anim    text eol=lf
+*.controller text eol=lf
+*.overrideController text eol=lf
+*.physicMaterial text eol=lf
+*.physicsMaterial2D text eol=lf
+*.shader  text eol=lf
+*.shadergraph text eol=lf
+*.shadersubgraph text eol=lf
+*.cginc   text eol=lf
+*.hlsl    text eol=lf
+*.compute text eol=lf
+*.asmdef  text eol=lf
+*.asmref  text eol=lf
+*.json    text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.xml     text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+.gitignore   text eol=lf
+.gitattributes text eol=lf
+
+# Binary assets (never convert)
+*.fbx     binary
+*.obj     binary
+*.glb     binary
+*.gltf    binary
+*.blend   binary
+*.3ds     binary
+*.max     binary
+*.ma      binary
+*.mb      binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.tga     binary
+*.psd     binary
+*.tif     binary
+*.tiff    binary
+*.exr     binary
+*.hdr     binary
+*.bmp     binary
+*.gif     binary
+*.wav     binary
+*.mp3     binary
+*.ogg     binary
+*.aiff    binary
+*.unitypackage binary
+*.dll     binary
+*.so      binary
+*.dylib   binary
+*.a       binary
+*.lib     binary
+*.exe     binary
+*.bundle  binary
+*.bytes   binary
+*.nrrd    binary
+*.nii     binary
+*.nii.gz  binary
+*.vtk     binary
+*.zip     binary
+*.7z      binary

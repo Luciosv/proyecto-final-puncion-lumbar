@@ -1,0 +1,73 @@
+{
+  "Skin": {
+    "family": "kv_rupture",
+    "params": [
+      3.6379310352,
+      5.3866839139,
+      -9.025
+    ],
+    "z_width_mm": 2.0
+  },
+  "Fat": {
+    "family": "constant",
+    "params": [
+      0.7
+    ],
+    "z_width_mm": 14.0
+  },
+  "Supraspinous Lig.": {
+    "family": "polynomial3",
+    "params": [
+      0.8,
+      0.3083333333,
+      0.0,
+      -0.0083333333
+    ],
+    "z_width_mm": 3.0
+  },
+  "Interspinous Lig.": {
+    "family": "exponential",
+    "params": [
+      1.1064210732,
+      0.1954071308,
+      0.0486139221
+    ],
+    "z_width_mm": 17.0
+  },
+  "Ligamentum Flavum": {
+    "family": "polynomial3",
+    "params": [
+      1.6299999994,
+      -0.449999997,
+      0.7249999981,
+      -0.1749999997
+    ],
+    "z_width_mm": 4.0
+  },
+  "Epidural Space": {
+    "family": "saturating_exp",
+    "params": [
+      0.2,
+      0.2,
+      0.3
+    ],
+    "z_width_mm": 5.0
+  },
+  "Dura Mater": {
+    "family": "polynomial3",
+    "params": [
+      0.2057142857,
+      0.1238095239,
+      0.8714285713,
+      -0.4666666666
+    ],
+    "z_width_mm": 2.0
+  },
+  "Subarachnoid": {
+    "family": "constant",
+    "params": [
+      0.15
+    ],
+    "z_width_mm": 4.0
+  }
+}

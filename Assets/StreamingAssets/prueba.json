@@ -1,0 +1,86 @@
+{
+  "Outside": {
+    "family": "constant",
+    "params": [
+      0.0
+    ],
+    "z_width_mm": 4.0
+  },
+  "Skin": {
+    "family": "exponential",
+    "params": [
+      -5.0,
+      5.7030951945,
+      0.2590456933
+    ],
+    "z_width_mm": 2.0
+  },
+  "Fat": {
+    "family": "linear",
+    "params": [
+      1.0,
+      0.5
+    ],
+    "z_width_mm": 14.0
+  },
+  "Muscle": {
+    "family": "polynomial3",
+    "params": [
+      4.1,
+      0.5335227273,
+      0.2247159091,
+      -0.0582386364
+    ],
+    "z_width_mm": 3.2
+  },
+  "Supraspinous Lig.": {
+    "family": "saturating_exp",
+    "params": [
+      4.002895189,
+      6.8198048234,
+      0.99795197
+    ],
+    "z_width_mm": 3.0
+  },
+  "Interspinous Lig.": {
+    "family": "linear",
+    "params": [
+      5.4999999999,
+      0.09
+    ],
+    "z_width_mm": 17.0
+  },
+  "Ligamentum Flavum": {
+    "family": "exponential",
+    "params": [
+      7.0259067358,
+      0.0002,
+      2.1865284974
+    ],
+    "z_width_mm": 4.0
+  },
+  "Epidural Space": {
+    "family": "exponential",
+    "params": [
+      3.544,
+      4.4300518135,
+      -0.8445595855
+    ],
+    "z_width_mm": 5.0
+  },
+  "Dura Mater": {
+    "family": "linear",
+    "params": [
+      3.6062176166,
+      0.6735751295
+    ],
+    "z_width_mm": 2.0
+  },
+  "Subarachnoid": {
+    "family": "constant",
+    "params": [
+      0.5
+    ],
+    "z_width_mm": 4.0
+  }
+}

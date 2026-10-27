@@ -1,0 +1,78 @@
+# Unity generated / local-only directories
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Never ignore .meta files except when their asset is ignored
+!/[Aa]ssets/**/*.meta
+
+# Editor / IDE local files
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity crash / sync artifacts
+sysinfo.txt
+crashlytics-build.properties
+~UnityDirMonSyncFile~*
+
+# Builds and packaged assets
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Plugins that Unity re-imports automatically
+/[Aa]ssets/[Aa]ssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ---- Project specific ----
+# Plastic SCM / Unity Version Control leftovers (Git is the VCS now)
+/.plastic/
+*.private
+*.private.*
+
+# Local assistant / agent configuration (machine-specific, not part of the Unity project)
+/.claude/
+/.opencode/
+/opencode.json
+/opencode.jsonc
+/AGENTS.md
+/CLAUDE.md
+
+# OS noise
+.DS_Store*
+Thumbs.db
+Desktop.ini
+*.tmp
